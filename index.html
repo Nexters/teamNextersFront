@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <title>Nexters Hompage</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">넥스터즈 홈페이지</a>
+      </div>
+      <div class="collapse navbar-collapse" id="main-navbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">About</a></li>
+          <li><a href="#activities">Activities</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#membership">Membership</a></li>
+        </ul>
+    </div>
+    </div>
+  </nav>
+
+  <div id="main" class="container-fluid"></div>
+
+  <!-- About template -->
+  <script id="about-template" type="text/template">
+
+  </script>
+
+  <!-- Activities template -->
+  <script id="activities-template" type="text/template">
+
+  </script>
+
+  <!-- Contact template -->
+  <script id="contact-template" type="text/template">
+
+  </script>
+
+  <!-- Membership template -->
+  <script id="membership-template" type="text/template">
+
+  </script>
+
+  <footer class="container-fluid text-center">
+      <p>Copyright(c) team NEXTERS. All rights reserved.</p>
+      <p>Developed by Jun, Allan, Rick, Qurian, Byul</p>
+  </footer>
+
+  <script src="js/vendor/jquery-2.1.4.min.js"></script>
+  <script src="js/vendor/underscore-min.js"></script>
+  <script src="js/vendor/backbone-min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+
+  <script src="js/app.js"></script>
+  <script src="js/common.js"></script>
+
+  <script src="js/apps/About/app.js"></script>
+  <script src="js/apps/About/router.js"></script>
+  <script src="js/apps/About/view.js"></script>
+
+  <script src="js/apps/Activities/app.js"></script>
+  <script src="js/apps/Activities/router.js"></script>
+  <script src="js/apps/Activities/view.js"></script>
+
+  <script src="js/apps/Contact/app.js"></script>
+  <script src="js/apps/Contact/router.js"></script>
+  <script src="js/apps/Contact/view.js"></script>
+
+  <script src="js/apps/Membership/app.js"></script>
+  <script src="js/apps/Membership/router.js"></script>
+  <script src="js/apps/Membership/view.js"></script>
+
+  <script type="text/javascript">App.start();</script>
+</body>
+</html>
