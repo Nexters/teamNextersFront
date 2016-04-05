@@ -8,20 +8,115 @@ body {
   color: #616161;
 }
 
-.navbar {
-  background-color: #2f353f;
-  color: #9d9d9d;
-}
-
-.navbar a {
-  color: #a7b1c2;
-}
-
 .container {
   height: 100%;
   min-height: 100%;
+  max-width: 960px;
 }
 
+.navbar {
+  background-color: #898989;
+  margin-bottom: 0px;
+  border: none;
+}
+
+.navbar-toggle{
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+.navbar-collapse{
+  max-width: 960px;
+}
+
+.nav > li > a {
+  margin: 0px;
+  padding: 0px;
+
+  background-color: transparent !important;
+}
+
+.ul-box{
+  height: 40px;
+}
+.ul-box > .btn-group {
+  float: right;
+}
+.ul-box > .btn-group > button {
+  background-color: #ffffff;
+  color: #000000;
+  width: 90px;
+  height: 30px;
+  border: 2px;
+  border-style: solid;
+  border-color: #898989;
+  margin: 5px 0px 5px 0px;
+  padding: 5px 7px 5px 7px;
+  font-size: 12px;
+}
+.ul-box > .btn-group > button:hover{
+  background-color: #898989;
+  color: #ffffff;
+}
+
+.pagination-box{
+  text-align: center;
+}
+@media screen and (min-width: 48em){
+  .pagination-box{
+    text-align: justify;
+  }
+}
+
+.pagination-box > .btn-group {
+  display: flex;
+}
+
+.pagination-box > .btn-group > button {
+  width: 50px;
+  color: #000000;
+  border-style: solid;
+  border-color: #ffffff;
+  font-size: 12px;
+}
+
+.members-box > .row > .intro-box > img {
+  padding: 0;
+  max-width: 100%;
+  height: 60px;
+}
+.members-box > .row > .intro-box > .text-box {
+  margin-top: 15px;
+  height: 140px;
+}
+.members-box > .row > .intro-box > .text-box > p {
+  margin: 4px 0px 4px 0px;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.members-box > .row > .member-box > img {
+  padding: 0;
+  max-width: 100%;
+  height: 140px;
+}
+.members-box > .row > .member-box > .text-box {
+  margin-top: 15px;
+  height: 60px;
+}
+.members-box > .row > .member-box > .text-box  > .name {
+  margin: 0px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.members-box > .row > .member-box > .text-box  > .role {
+  margin: 0px;
+  font-size: 10px;
+}
+.members-box > .row > .member-box > .text-box  > .email {
+  margin: 0px;
+  font-size: 10px;
+}
 footer{
   margin-top: 20px;
   padding-top: 15px;

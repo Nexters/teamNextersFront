@@ -12,22 +12,20 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-inverse">
+  <nav class="navbar">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+          <img src="img/ic_menu.png" width="60px" height="60px"/>
         </button>
-        <a class="navbar-brand" href="#">넥스터즈 홈페이지</a>
+        <img src="img/main_logo.png" width="200px" height="60px"/>
       </div>
       <div class="collapse navbar-collapse" id="main-navbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#about">About</a></li>
-          <li><a href="#activities">Activities</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#membership">Membership</a></li>
+          <li><a href="#about"><img src="img/li_1.png" width="90px" height="60px"/></a></li>
+          <li><a href="#activities"><img src="img/li_2.png" width="90px" height="60px"/></a></li>
+          <li><a href="#contact"><img src="img/li_3.png" width="90px" height="60px"/></a></li>
+          <li><a href="#membership"><img src="img/li_4.png" width="130px" height="60px"/></a></li>
         </ul>
     </div>
     </div>
@@ -39,7 +37,7 @@
   <script id="about-template" type="text/template">
     <div class="row">
       <div class="col-sm-8">
-        <div id="about-carousel" class="carousel slide" data-ride="carousel">
+        <div id="about-carousel" class="carousel slide">
 
           <ol class="carousel-indicators">
             <li data-target="#about-carousel" data-slide-to="0" class="active"></li>
@@ -86,7 +84,84 @@
 
   <!-- Activities template -->
   <script id="activities-template" type="text/template">
-
+    <div class="container ul-box text-center hidden-xs">
+      <div class="btn-group">
+        <button type="button">product</button>
+        <button type="button">member</button>
+        <button type="button">archive</button>
+        <button type="button">notice</button>
+        <button type="button">memories</button>
+      </div>
+    </div>
+    <div class="container pagination-box">
+      <div class="btn-group text-center">
+        <button type="button">&lt</button>
+        <button type="button">8th</button>
+        <button type="button">7th</button>
+        <button type="button">6th</button>
+        <button type="button">5th</button>
+        <button type="button">4th</button>
+        <button type="button">&gt</button>
+      </div>
+    </div>
+    <div class="container members-box text-center">
+      <div class="row">
+        <div class="col-sm-2 col-xs-6 intro-box">
+          <img src="http://placehold.it/140x60" alt="Image">
+          <div class="text-box text-center">
+            <p>NEXTERS 8th</p>
+            <br/>
+            <p>기간:16.1.9 ~ 2.27</p>
+            <p>인원:84명</p>
+            <p>프로젝트 팀:13개</p>
+            <p>출시한 서비스:3개</p>
+          </div>
+        </div>
+        <div class="col-sm-2 col-xs-6 member-box">
+          <img src="http://placehold.it/140x140" alt="Image">
+          <div class="text-box text-center">
+            <p class="name">김대경</p>
+            <p class="role">8th 디자이너</p>
+            <p class="email">thequrian@naver.com</p>
+          </div>
+        </div>
+        <div class="col-sm-2 col-xs-6 member-box">
+          <img src="http://placehold.it/140x140" alt="Image">
+          <div class="text-box">
+          </div>
+        </div>
+        <div class="col-sm-2 col-xs-6 member-box">
+          <img src="http://placehold.it/140x140" alt="Image">
+          <div class="text-box">
+          </div>
+        </div>
+        <div class="col-sm-2 col-xs-6 member-box">
+          <img src="http://placehold.it/140x140" alt="Image">
+          <div class="text-box">
+          </div>
+        </div>
+        <div class="col-sm-2 col-xs-6 member-box">
+          <img src="http://placehold.it/140x140" alt="Image">
+          <div class="text-box">
+          </div>
+        </div>
+        <div class="col-sm-2 col-xs-6 member-box">
+          <img src="http://placehold.it/140x140" alt="Image">
+          <div class="text-box">
+          </div>
+        </div>
+        <div class="col-sm-2 col-xs-6 member-box">
+          <img src="http://placehold.it/140x140" alt="Image">
+          <div class="text-box">
+          </div>
+        </div>
+        <div class="col-sm-2 col-xs-6 member-box">
+          <img src="http://placehold.it/140x140" alt="Image">
+          <div class="text-box">
+          </div>
+        </div>
+      </div>
+    </div>
   </script>
 
   <!-- Contact template -->
