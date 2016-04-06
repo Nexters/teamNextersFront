@@ -1,0 +1,22 @@
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+
+body, table, div, p {font-family:'Nanum Gothic';}
+
+#about {width: 960px;margin: auto;}
+.infoContents {margin-left: 190px;padding-top: 50px}
+#infoSection {background-color: #79d3df;}
+.infoContents span{color:#ffffff}
+
+#mainSection {background-color: #ffffff;}
+
+.mainContents .mainText h3 {color: #63c7dd;text-align: center;}
+.mainContents .mainText .mainTextContents {margin: auto;}
+.mainContents .mainTextContents {padding-left:225px;padding-top: 24px;}
+
+.mainContents {padding-top:37px; padding-bottom: 30px;}
+#mainCircle {padding-top: 71px;}
+
+#pictureSection {height: 320px}
+
+#mainBtnbar span{color: #ffffff}
+#mainBtnbar {margin-bottom:30px}
