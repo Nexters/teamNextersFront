@@ -2622,7 +2622,7 @@ height:100%;
     }
 
     .nf-col-5 .nf-item, .nf-col-6 .nf-item {
-        width: 100%;
+        width: 50%;
     }
 
     .nf-row2 .nf-item.spacing, .nf-row1 .nf-item.spacing, .spacing-box {
@@ -2639,7 +2639,7 @@ height:100%;
 @media (max-width: 480px) {
 
     .nf-col-5 .nf-item, .nf-col-6 .nf-item {
-        width: 100%;
+        width: 50%;
     }
 }
 /* ----------------------------------------------------------------------*/
